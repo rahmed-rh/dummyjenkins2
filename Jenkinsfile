@@ -1,4 +1,4 @@
-node() {
+node(deploymentconfig=jenkins-b) {
 	stage("Stage 1") {
 		echo "Project B In Stage 1"
 	}
